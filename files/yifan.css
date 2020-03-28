@@ -1,0 +1,36 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+  padding-top: 3.5rem;
+}
+
+a:link {
+  color: #003399;
+}
+
+a:visited {
+  color: #003399;
+}
+
+a:hover {
+  color: #003399;
+}
+
+
+/* the icon color changes when the mouse hovers on it*/
+i:hover {
+    color: DODGERBLUE;
+    font-size: 32px;
+}
+
+
+/* image border */
+img {
+    /* max-width: 240px; */
+    border:1px solid gainsboro;
+}
+
+/* h3 header */
+h3 {
+    padding-top: 80px; 
+    margin-top: -80px;
+}
